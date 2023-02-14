@@ -30,23 +30,14 @@ p{line-height:20px;color:#666; font-weight:300;}
 
 
 
-  @media(max-width:768px){
-    .big-test{font-size:40px;}
-    .cta{display:none;}
-    .menu{position:absolute;
-    top:0; right:-100%; background:black;
-  height:100vh;padding-top:80px;}
-.menu.li{display:block;}
-.menu li a{padding:15px 30px;font-size:20px;}
-.manu--open{right:0%}
-.hamburgher{display:block;
-  width:30px;
-height:30px;
+  
+/*!Helpers*/
+.nt-1{margin-top:50px;}
+.nt-2{margin-top:100px;}
+.nt-3{margin-top:150px;}
 
-position:absolute;
-top:40px;
-right:30px}
-.hamburger span{background:#fff;height:3pxx;width:100%; display:block;margin-bottom:5px;}}
+
+.tw{color:#fff;}
 
 /*!Header*/
  
@@ -61,7 +52,7 @@ display:flex;
 max-width:1350px;}
 
 
-.logo{z-index: 1;}
+
 
  .menu{
   
@@ -75,26 +66,29 @@ max-width:1350px;}
   padding:15px;
   display: block;
  }
- .logo{}
- .cta{}
+ .logo{z-index:1;}
 
 .hamburger{display:none;}
+
+
 @media(max-width:768px){
-  font-size:40px;
   .cta{display:none;}
   .menu{position:absolute;
-  top:0; right:-100%; background:black;
+  top:0; right:-100%; background:#000;
   height:100vh;padding-top:80px;}
   .menu.li{display:block;}
-  .menu li a{padding:15px 30px;font-size:20px;}
-  .hamburgher{display:block;
+  .menu li a{padding: 15px 30px;font-size:20px;}
+  .menu--open{right:0%;}
+  .hamburger{
+    display:block;
 width:30px;
 height:30px;
-
 position:absolute;
 top:40px;
 right:30px;}
-.hamburger span{background:#fff;height:3pxx;width:100%; display:block;margin-bottom:5px;}}
+.hamburger span{background:#fff;height:3px;width:100%; display:block;margin-bottom:5px;}}
+
+
   /*!Hero*/
   .hero{
     height:100vh;
@@ -131,7 +125,18 @@ height:100%;}
   width: 35%;
   padding:5;}
   @media(max-width: 768px){
-.poster{flex-wrap: wrap;}
+.poster{flex-wrap: wrap;height:auto;}
 .poster__img,
-.poster__content{width:100%;
-  }}
+.poster__content{width:100%;}}
+
+
+/*BG Cover*/
+.bg-cover{border:1px solid red;
+display:flex;
+padding:100px 0;
+background:linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0,0.7)),url(https://images.pexels.com/photos/3554634/pexels-photo-3554634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
+background-size:cover;}
+.bg-cover__text{width:50%;
+padding:30px;}
+.bg-cover__title{width:50%;
+padding:50px; display:flex; align-items:center;}
