@@ -26,10 +26,6 @@ p{line-height:20px;color:#666; font-weight:300;}
 
 
 
-
-
-
-
   
 /*!Helpers*/
 .nt-1{margin-top:50px;}
@@ -53,9 +49,10 @@ max-width:1350px;}
 
 
 
-
+.logo{z-index:1;
+}
  .menu{
-  
+ 
   width:100%;
   z-index:0;
  }
@@ -66,29 +63,20 @@ max-width:1350px;}
   padding:15px;
   display: block;
  }
- .logo{z-index:1;}
+
 
 .hamburger{display:none;}
 
 
 @media(max-width:768px){
   .cta{display:none;}
-  .menu{position:absolute;
-  top:0; right:-100%; background:#000;
-  height:100vh;padding-top:80px;}
-  .menu.li{display:block;}
-  .menu li a{padding: 15px 30px;font-size:20px;}
+  .menu{position:absolute;top:0;right:-100%; background:rgb(0, 0, 0); height:100vh; padding-top:80px;} 
+  .menu li{display:block;}
+  .menu li a{padding:15px 50px;font-size:20;}
   .menu--open{right:0%;}
-  .hamburger{
-    display:block;
-width:30px;
-height:30px;
-position:absolute;
-top:40px;
-right:30px;}
-.hamburger span{background:#fff;height:3px;width:100%; display:block;margin-bottom:5px;}}
-
-
+  .hamburger{display:block;width:30px;height:30px;position:absolute;top:40px;right:60px;}
+.hamburger span{background:#fff;height:3px;width:100%;display:block;margin-bottom:5px;}
+         }
   /*!Hero*/
   .hero{
     height:100vh;
