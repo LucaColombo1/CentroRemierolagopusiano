@@ -33,15 +33,6 @@ font-style:italic;
 } 
 
 
-  
-/*!Helpers*/
-.nt-1{margin-top:50px;}
-.nt-2{margin-top:100px;}
-.nt-3{margin-top:150px;}
-
-
-.tw{color:#fff;}
-
 /*!Header*/
  
 .header{ 
@@ -126,7 +117,7 @@ height:100%;}
 
 
 /*BG Cover*/
-.bg-cover{border:1px solid red;
+.bg-cover{
 display:flex;
 padding:100px 0;
 background:linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0,0.7)),url(https://images.pexels.com/photos/3554634/pexels-photo-3554634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center;
@@ -135,3 +126,69 @@ background-size:cover;}
 padding:30px;}
 .bg-cover__title{width:50%;
 padding:50px; display:flex; align-items:center;}
+
+
+@media(max-width:768px){
+  .bg-cover{flex-wrap:wrap;height:auto;}
+  .bg-cover__text,
+  .bg-cover__title{width:100%;}
+}
+
+
+/*!Grid*/
+.grid{display:flex;max-width:1350px;padding:0 30px; margin:0 auto;}
+.grid .col{width:100%;}
+@media(max-width:768px){
+  .grid{flex-wrap:wrap;}
+}
+
+/*!Carousel*/
+.main-carousel{padding:40px;}
+.carousel-cell{height:350px;width:350px;background:#6adf91;border-radius:100%;line-height:350px;text-align:center;margin-right:40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!Helpers*/
+.nt-1{margin-top:50px;}
+.nt-2{margin-top:100px;}
+.nt-3{margin-top:150px;}
+.tw{color:#fff;}
