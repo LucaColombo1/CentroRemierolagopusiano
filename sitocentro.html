@@ -11,7 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" type="text/css" href="sitocentro.css">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
 </head>
 <body>
 
@@ -36,7 +39,7 @@
 
 
 <div class="hero">
-  <div class="hero__content">
+  <div class="hero__content reveal">
 <p class="intro-text">
   Intro Text
 </p>
@@ -49,11 +52,11 @@
 </div>
 
 <div class="poster nt-3">
-<div class="poster__img">
+<div class="poster__img reveal">
 <img src="https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="bilancere olimpico in terra caricato con 25 libre sia destra che a sinistra. Dietro come sfondo una palestra vuota"> 
 </div>
 
-<div class="poster__content">
+<div class="poster__content reveal">
   <h3 class="big-text">
     Titolo della mia poster
   </h3>
@@ -69,34 +72,41 @@
 
 
 <div class="bg-cover nt-3">
-<div class="bg-cover__title">
+  <div class="bg-cover__title reveal">
   <h3 class="big-text tw">
 Titolo del mio blocco cover
   </h3>
 </div>
-<div class="bg-cover__text">
-<h4 class="normal-text tw">
-  titolo del mio paragrafo
-</h4>
-<p class="tw">
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, iure autem praesentium alias esse reiciendis quo? Minus dolorum dolore deserunt earum quo, nihil ad, magnam deleniti hic reiciendis sunt error.
-</p>
 
-<h4 class="normal-text tw">
-  titolo del mio paragrafo
-</h4>
-<p class="tw">
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, iure autem praesentium alias esse reiciendis quo? Minus dolorum dolore deserunt earum quo, nihil ad, magnam deleniti hic reiciendis sunt error.
-</p>
+ <div class="bg-cover__text reveal>
+  
+  <h4 class="normal-text tw">
+    titolo del mio paragrafo
+  </h4>
+  <p class="tw">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, iure autem praesentium alias esse reiciendis quo? Minus dolorum dolore deserunt earum quo, nihil ad, magnam deleniti hic reiciendis sunt error.
+  </p>
 
-<h4 class="normal-text tw">
-  titolo del mio paragrafo
-</h4>
-<p class="tw">
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, iure autem praesentium alias esse reiciendis quo? Minus dolorum dolore deserunt earum quo, nihil ad, magnam deleniti hic reiciendis sunt error.
-</p>
+  
+  <h4 class="normal-text tw">
+    titolo del mio paragrafo
+  </h4>
+  <p class="tw">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, iure autem praesentium alias esse reiciendis quo? Minus dolorum dolore deserunt earum quo, nihil ad, magnam deleniti hic reiciendis sunt error.
+  </p>
+
+  <h4 class="normal-text tw">
+    titolo del mio paragrafo
+  </h4>
+  <p class="tw">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, iure autem praesentium alias esse reiciendis quo? Minus dolorum dolore deserunt earum quo, nihil ad, magnam deleniti hic reiciendis sunt error.
+  </p>
+
 </div>
 </div>
+
+
+
 
 <div class="grid nt-3">
   <div class="col">
@@ -208,6 +218,11 @@ $(".hamburger").on('click',function(){
 });
 
   });
+
+  ScrollReveal().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+  ScrollReveal().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+
+
 </script>
 
 
