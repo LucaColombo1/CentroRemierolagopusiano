@@ -109,25 +109,43 @@ Titolo del mio blocco cover
 
 
 <div class="grid nt-3">
-  <div class="col">
-    <h3 class="big-text">ciao<br>come va</h3>
+  <div class="col reveal">
+    <h3 class="big-text ">ciao<br>come va</h3>
    colonna
   </div>
-  <div class="col">
+  <div class="col reveal">
   <p class="nt-2">
     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio sed voluptatem, molestias in necessitatibus voluptates labore quis illo ducimus? Quas saepe atque dolores. Nobis ipsam sint modi nihil, magnam placeat.
   </p>
    </div>
 </div>
 
+
 <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
+  <div class="carousel-cell">
+    <div class="carousel-cell__content zoom">
+      Text
+    </div>
+  </div>
+  <div class="carousel-cell">
+    <div class="carousel-cell__content zoom">
+      Text
+    </div>
+  </div>
+  <div class="carousel-cell">
+    <div class="carousel-cell__content zoom">
+      Text
+    </div>
+  </div>
+  <div class="carousel-cell">
+    <div class="carousel-cell__content zoom">
+      Text
+    </div>
+  </div>
 </div>
+ 
+ 
+
 
 <div class="poster nt-3">
   
@@ -220,7 +238,7 @@ $(".hamburger").on('click',function(){
   });
 
   ScrollReveal().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
-  ScrollReveal().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+  ScrollReveal().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65 });
 
 
 </script>
