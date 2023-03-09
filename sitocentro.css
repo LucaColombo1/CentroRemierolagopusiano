@@ -225,3 +225,7 @@ display:inline-block;margin-right:40px;margin-bottom:40px;}
 .nt-2{margin-top:100px;}
 .nt-3{margin-top:150px;}
 .tw{color:#fff;}
+@media(max-width:768px){
+  .nt-sma-0{margin-top:0;}
+.nb-sma-0{margin-bottom:0;}
+}
