@@ -35,7 +35,7 @@ font-style:italic;
 
 /*!Header*/
  
-.header{ 
+header{ 
   width:100%;
   position:fixed;
   z-index:10;
@@ -47,13 +47,59 @@ display:flex;
 max-width:1350px;}
 
 
-.logo{z-index:1;
+header .logo{
+  font-weight:bolder;
+  font-size:25px;
+  color:#333;}
+
+header .navbar ul{
+list-style:none;}
+
+header .navbar ul li{
+position:relative;
+float:left;}
+
+
+header .navbar ul li a{
+font-size:20px;
+padding:20px;
+color:#333;
+display:block;
 }
 
-nav{
-width:100%;
-padding: 0 30px;
-}
+header .navbar ul li a:hover{
+  background:#333;
+  color:#fff;}
+
+header .navbar ul li ul{
+position: absolute;
+left:0;
+width:200px;
+background:#fff;
+display:none;}
+
+
+header .navbar ul li ul li{
+  width:100%;
+  border-top: 1px solid rgba(0,0,0,.1);}
+
+header .navbar ul li ul li ul{
+  left:200px;
+  top:0;}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+  display:initial;}
+
+#menu-bar{
+  display:none;}
+
+header label{
+font-size:20px;
+color:#333;
+cursor:pointer;
+display:none;}
+
  .menu{
   transition: all 1s cubic-bezier(.215, .61, .355, 1);
   width:100%;
@@ -79,7 +125,7 @@ padding: 0 30px;
 .menu a:hover{
   color:rgb(0, 104, 164);
 }
-.hamburger{display:none;}
+
 
 
 @media(max-width:768px){
@@ -88,9 +134,29 @@ padding: 0 30px;
   .menu li{display:block;}
   .menu li a{padding:15px 50px;font-size:20;}
   .menu--open{right:0%;}
-  .hamburger{display:block;width:30px;height:30px;position:absolute;top:40px;right:60px;}
-.hamburger span{background:#fff;height:3px;width:100%;display:block;margin-bottom:5px;}
-         }
+  header{padding:20px;}
+  header label{display:initial;}
+  header .navbar{
+  position:absolute;
+  top:100%;
+  left:0;
+  right:0;
+   background:#fff;
+  border-top: 1px solid rgba(0,0,0,.1);
+  display:none;}
+  header .navbar ul li{
+      width:100%;}
+
+  header .navbar ul li ul{position:relative;width:100%;}
+  header .navbar ul li ul li{
+      background:#eee;}
+  header .navbar ul li ul li ul{width:100%;
+  left:0;}
+#menu-bar:checked ~ .navbar{display:initial;}     }
+
+
+
+
   /*!Hero*/
   .hero{
     position:relative;
