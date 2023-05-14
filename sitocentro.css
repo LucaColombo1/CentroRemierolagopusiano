@@ -208,6 +208,37 @@ top:0;
   z-index:0;
 
 }
+/*!Elenco*/
+.elenco {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  margin-left: 10%;
+  color: #000;
+}
+
+.elenco li {
+  margin-bottom: 10px;
+}
+
+#sp {color:rgb(0, 104, 164);}
+#ss{color:#3CC4EF;}
+
+.elenco h3 {
+  color:rgb(0, 104, 164);
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.elenco p {
+  margin-top: 5px;
+}
+
+.elenco li p{
+  color:#000;
+}
+
 
 /*!Span*/
 
