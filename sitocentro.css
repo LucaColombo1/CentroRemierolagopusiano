@@ -213,17 +213,40 @@ top:0;
   list-style-type: none;
   padding-left: 0;
   text-align: left;
-  margin-left: 10%;
+  margin-left: 12%;
   color: #000;
-}
+  
+  }
 
 .elenco li {
   margin-bottom: 10px;
 }
 
-#sp {color:rgb(0, 104, 164);}
-#ss{color:#3CC4EF;}
+#sp {color:rgb(0, 104, 164);
+}
+#spa{color:rgb(0, 104, 164);font-style: italic;
+}
+#ss{color:rgb(60, 196, 239);
+}
 
+.elencod{
+  color:rgb(60, 196, 239);
+  text-align: left;
+  margin-left: 12%;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.elencoc{
+  list-style-type: none;
+  padding:0px;
+  color:#000;
+  font-size:18px;
+text-align: left;
+margin-left:12%;
+margin-bottom:25px;
+
+}
 .elenco h3 {
   color:rgb(0, 104, 164);
   font-size: 18px;
@@ -232,11 +255,12 @@ top:0;
 }
 
 .elenco p {
-  margin-top: 5px;
-}
-
+  margin-top: 5px;}
+.elenco p a{text-decoration:none;
+  color:#000;}
 .elenco li p{
   color:#000;
+  
 }
 
 
@@ -309,7 +333,9 @@ padding:50px; display:flex; align-items:center;}
 .dot{height:275px;width:275px;background:#000000;
 line-height:250px;text-align:center;
 display:inline-block;margin-right:40px;margin-bottom:40px;}
-
+.dot1{height:400px;width:500px;background:#000000;
+  line-height:250px;text-align:center;
+  display:inline-block;margin-right:40px;margin-bottom:40px;}
 
 /*Section*/
 .pdf{
