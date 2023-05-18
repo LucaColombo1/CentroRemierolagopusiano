@@ -263,10 +263,18 @@ margin-bottom:25px;
   
 }
 .M{
-  font-size: 18px;
-padding: 15px;}
+  font-size: 20px;
+padding: 20px;
+font-style: normal;
+width:100%;
+align-items: center;
+height: 50%;
+}
 
-
+.mc{
+ 
+  color:rgb(0, 104, 164);
+}
 
 /*!Span*/
 
