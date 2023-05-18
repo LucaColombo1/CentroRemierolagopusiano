@@ -21,18 +21,10 @@ window.onload = function() {
     sectionTitle.style.width = lineWidth + 'px';
   }
 }
-function initMap() {
-  var location = { lat: 40.712776, lng: -74.005974 };
+  
 
-  var mapOptions = {
-    zoom: 12,
-    center: location
-  };
 
-  var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
-  var marker = new google.maps.Marker({
-    position: location,
-    map: map
-  });
-}
+
+
+
