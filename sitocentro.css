@@ -210,6 +210,10 @@ top:0;
   z-index:0;
 
 }
+#ipd{
+  font-size:16px;
+  padding:10px;
+}
 /*!Elenco*/
 .elenco {
   list-style-type: none;
