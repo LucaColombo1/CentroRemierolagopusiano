@@ -236,6 +236,23 @@ top:0;
     font-size:18px;
 
   }
+  .ele{list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    margin-left: 17%;
+    color: #000;
+    font-size:18px;
+
+  }
+  .ele1{
+    ist-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    margin-left: 39%;
+    color: #000;
+    font-size:18px;
+
+  }
 .elenco li {
   margin-bottom: 10px;
 }
