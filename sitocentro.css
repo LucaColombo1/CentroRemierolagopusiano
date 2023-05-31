@@ -223,7 +223,19 @@ top:0;
   color: #000;
   
   }
+.elenco1{list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  margin-left: 34%;
+  color: #000;}
+  .elenco11{list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    margin-left: 34%;
+    color: #000;
+    font-size:18px;
 
+  }
 .elenco li {
   margin-bottom: 10px;
 }
@@ -242,6 +254,15 @@ top:0;
   font-size:20px;
   font-weight:bold;
 }
+.elenco1d{ color:rgb(0, 0, 0);
+  text-align: left;
+  margin-left: 12%;
+  font-size:20px;
+  font-weight:bold;
+  margin-left: 34%;
+}
+
+
 
 .elencoc{
   list-style-type: none;
