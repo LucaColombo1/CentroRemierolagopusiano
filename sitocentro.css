@@ -34,7 +34,13 @@ font-style:italic;
 
 .mezzo{
   margin-left:45%;
-}
+  }
+  .mezzo1{
+    margin-left:44%;
+    }
+    .mezzo2{
+      margin-left:43.7%;
+      }
 /*!Header-Nav*/
  
 
@@ -414,6 +420,9 @@ display:inline-block;margin-right:40px;margin-bottom:40px;}
   text-align: center;
   position: relative;
   margin-bottom: 20px;
+}
+.d1{
+  margin-left:44%;
 }
 
 .section-line {
