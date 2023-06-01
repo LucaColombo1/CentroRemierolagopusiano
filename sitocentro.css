@@ -251,7 +251,7 @@ top:0;
 
   }
   .ele1{
-    ist-style-type: none;
+    list-style-type: none;
     padding-left: 0;
     text-align: left;
     margin-left: 39%;
@@ -270,6 +270,15 @@ top:0;
 #ss{color:rgb(60, 196, 239);
 }
 
+.elencoa {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  margin-left: 19.5%;
+  color: #000;
+  
+  }
+
 .elencod{
   color:rgb(60, 196, 239);
   text-align: left;
@@ -277,9 +286,16 @@ top:0;
   font-size:20px;
   font-weight:bold;
 }
+.elencod4{
+  color:rgb(60, 196, 239);
+  text-align: left;
+  margin-left:19.5%;
+  font-size:20px;
+  font-weight:bold;
+}
 .elenco1d{ color:rgb(0, 0, 0);
   text-align: left;
-  margin-left: 12%;
+  margin-left:19.5%;
   font-size:20px;
   font-weight:bold;
   margin-left: 34%;
@@ -297,6 +313,16 @@ margin-left:12%;
 margin-bottom:25px;
 
 }
+.elencoc1{
+  list-style-type: none;
+  padding:0px;
+  color:#000;
+  font-size:18px;
+text-align: left;
+margin-left:19.5%;
+margin-bottom:25px;
+
+}
 .elenco h3 {
   color:rgb(0, 104, 164);
   font-size: 18px;
@@ -306,9 +332,9 @@ margin-bottom:25px;
 
 .elenco p {
   margin-top: 5px;}
-.elenco p a{text-decoration:none;
+.elencoa p a{text-decoration:none;
   color:#000;}
-.elenco li p{
+.elencoa li p{
   color:#000;
   
 }
