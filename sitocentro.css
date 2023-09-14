@@ -24,7 +24,10 @@ p{line-height:20px;color:#000000; font-weight:300;}
   display:inline-block;
   border-radius: 4px;}
 
+#fotosu{
+  margin-left: 46%;
 
+}
 #contactus{
 
   color:red;
@@ -33,7 +36,7 @@ font-style:italic;
 } 
 
 .mezzo{
-  margin-left:45%;
+  margin-left:46%;
   }
   .mezzo1{
     margin-left:44%;
