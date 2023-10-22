@@ -619,3 +619,13 @@ color:#000;;}
   align-items: center;
 
 }
+ 
+
+/* Stile per l'ingrandimento */
+ .img-zoom {
+  transition: transform 0.25s;
+}
+
+.img-zoom:hover {
+  transform: scale(1.5);
+}
